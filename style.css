@@ -1,0 +1,305 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    background-image: url(./image/bgimge.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+}
+/* Head CSS starts here */
+#header_section h1{
+    color: white;
+    display: inline-block;
+    font-size: 22px;
+    margin: 12px 0px 0px 15px;
+
+}
+#header_section span {
+    font-weight: 100;
+}
+#header_section ul{
+    
+    list-style: none;
+    position: relative;
+    float: right;
+    font-size: 22px;
+    margin: 0px 15px 7px 5px;
+}
+#header_section ul li{
+    display:inline-block;
+    margin: 10px 15px;
+    color: white;
+    
+}
+#header_section ul li i{
+    padding:0px 7px 0px 0px ;
+}
+#signupbtn{
+    border:3px solid rgb(212,207,206);
+    border-radius: 9px;
+    padding: 3px 17px;
+}
+/* Head CSS ends here */
+/* Body CSS Starts here */
+#body_section{
+    padding: 155px 0px 205px 0px;
+    color: white;
+    text-align: center;
+}
+#body_section h1{
+    font-size: 73px;
+    font-weight: 100;
+    text-align: center;
+    margin:1px 1px 25px 1px ;
+}
+#body_section p{
+    font-size: 30px;
+    text-align: center;
+}
+#signup{
+    background: white;
+    color: #1f1f1f;
+    border:3px solidwhite;
+}
+#body_section ul li{
+    display: inline-block;
+    border-radius: 9px;
+    font-size: 23px;
+    padding: 14px 90px;
+    margin-left:20px ;
+}
+/* Body CSS ends here */
+/* Descript CSS starts here */
+#descrip_section{
+    background: white;
+    margin: 0px 30px;
+    position: relative;
+    top: -50px;
+    width: 70%;
+    margin: 0px auto;
+    border-radius: 12px 12px 0px 0px;
+}
+#head_desp{
+    font-size: 30px;
+    text-align: center;
+    padding: 70px 1px;
+}
+#descrip_section img{
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: -10px;
+}
+#head_desp hr{
+    width: 64.5%;
+    border: 1px solid #e5e5e5;
+}
+#head_desp h2{
+    color: #646464;
+    font-weight: 100;
+    font-size: 49px;
+}
+#head_desp p{
+    color:#9e99ba;
+    font-size: 27px;
+}
+
+/* Descript CSS ends here */
+
+/* icon CSS starts here */
+#icon_section {
+    background: white;
+    margin: 7px auto;
+    width: 64.5%;
+    padding: 35px 50px 35px 50px;
+    border-radius: 12px;
+}
+#icon_section div{
+    text-align: center;
+    display:table-cell;
+    padding: 30px 7px 2px 0px;
+}
+#icon_section div h3{
+    font-size: 40px;
+    color: #646464;
+    font-weight: 100;
+}
+#icon_section div p{
+    font-size: 23px;
+    color: #777;
+
+}
+#icon_section div span{
+    display: inline-block;
+    height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+    padding: 0p 0px 0px 0px;
+}
+#icon_section div span i{
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 2.1em;
+    width: 125px;
+    height: 121px;
+    border:none;
+    border-radius: 50%;
+    color: white;
+}
+.fa-bolt{
+    font-size: 70px !important;
+    line-height: 117px !important;
+}
+.right_border{
+    border-right: solid 1px #e9e9e9;
+}
+.head_border{
+    border-top: solid 2px #d5d5d5;
+    padding-top:-1px ;
+}
+#icon_section hr{
+    margin: auto 0;
+    text-align: center;
+    width: 98%;
+    border: 1px solid #e9e9e9;
+    margin-left: 6px;
+    
+}
+/* icon CSS ends here */
+
+/* img CSS starts here */
+#img_section {
+    text-align: center;
+    margin: auto;
+    width: 71%;
+    
+    margin-top: 45px;
+}
+#img_section div{
+    width: 635px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 3px #bebebe;
+
+}
+#img_section div span img{
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+.rigth{
+    margin-left: 45px;
+}
+#img_section div h3{
+    font-size: 36px;
+}
+#img_section div p{
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+#img_section div div{
+    padding: 15px 0px;
+}
+#img_section div ul{
+    list-style: none !important;
+    padding-bottom: 50px;
+}
+#learn{
+    font-size: 21px;
+    border: 3px solid #c2c2c2;
+    padding: 15px 45px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/* img CSS ends here */
+/* foot CSS starts here */
+#footer_section{
+    text-align: center;
+    margin: auto;
+    height: fit-content;
+    background: #e89980;
+    padding-top: 35px;
+    margin-top: 130px;
+}
+#footer_section form div{
+    margin: auto;
+    display: flex;
+}
+#footer_section h2{
+    font-size: 48px;
+    color:#f8e4dc;
+    font-weight: 100;
+}
+#footer_section p{
+    font-size: 22px;
+    color: white;
+}
+#footer_section form{
+    display: table-cell;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+    height:200px;
+    background:#f0f0f0;
+    padding: 60px 0px;
+   
+}
+footer ul{
+    list-style: none;
+    display:inline
+}
+.icons li{
+    display: inline-flex;
+    margin: 15px;
+    text-decoration: none;
+    color: #c6c6c6;
+    font-size: 42px;
+}
+.link{
+    display: inline-flex;
+    text-decoration: none;
+}
+.link li{
+    margin: 15px;
+    font-size: 18px;
+    color: #9ea09e;
+    
+}
+.link li a {
+    color: #9ea09e;
+}
+.in input{
+    display: inline-block;
+    margin-bottom:75px;
+}
+#email{
+    width: 316px;
+    height: 62px;
+    background-color: #eba893;
+    border-radius: 8px;
+    border: none;
+    padding: 1px 19px;
+    margin-left: 697px;
+}
+input::placeholder {
+    font-weight: lighter;
+    font-size: 17px;
+    color:#f9e1d7 !important;
+  }
+  
+.fit{
+    width: 169px;
+    background: white;
+    margin-left: 15px;
+    color: #eba893;
+    font-size: 23px;
+    border: none;
+    border-radius: 9px;
+
+}
+/* foot CSS ends here */
