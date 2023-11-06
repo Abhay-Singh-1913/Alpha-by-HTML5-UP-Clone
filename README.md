@@ -2,4 +2,4 @@
  Clone of website
 Original Website:https://html5up.net/uploads/demos/alpha/index.html
 
-Disclaimer: If you feel wrong about the adjustment, please reduce the size of the browser screen.
+Disclaimer: If you feel wrong about the adjustment, please reduce the size of the browser screen. Since it is not a response webpage.
